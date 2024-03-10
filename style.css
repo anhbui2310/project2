@@ -1,0 +1,99 @@
+/* FONT */
+@font-face {
+  font-family: Poppins;
+  src: url(./font/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Sen;
+  src: url(./font/Sen-Regular.ttf);
+}
+/* ^FONT^ */
+
+/* GENERAL SETTING */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: Poppins;
+  font-size: 1.6rem;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+button {
+  border: none;
+}
+
+/*HEADER*/
+
+header {
+  margin-left: 135px;
+  margin-right: 135px;
+  margin-top: 52px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+.logo {
+  margin-right: 235px;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-item {
+  color: #2f3a3b;
+  font-family: Poppins;
+  font-size: 1.6rem;
+}
+
+.user {
+  margin-left: auto;
+
+  display: flex;
+  gap: 24px;
+
+  align-items: center;
+}
+
+.user__button--sign-in {
+  color: #2f3a3b;
+  font-family: Poppins;
+  font-size: 1.6rem;
+}
+
+.user__button--sign-up {
+  color: #1ebfc1;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  padding: 12px 23px;
+}
+
+header a:hover {
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.491);
+}
+
+/*^HEADER^*/
