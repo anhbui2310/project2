@@ -10,20 +10,22 @@
   </head>
   <body>
     <header>
-      <figure class="logo">
-        <img src="./img/Logo.png" alt="Besnik Logo" />
-      </figure>
-      <nav class="nav">
-        <a href="#" class="nav-item">Home</a>
-        <a href="#" class="nav-item">Features</a>
-        <a href="#" class="nav-item">Pricing</a>
-        <a href="#" class="nav-item">About</a>
-        <a href="#" class="nav-item">Contact</a>
-      </nav>
-      <section class="user">
-        <a class="user__button--sign-in">Sign in</a>
-        <button class="user__button--sign-up">Sign up</button>
-      </section>
+      <div class="main-content">
+        <figure class="logo">
+          <img src="./img/Logo.png" alt="Besnik Logo" />
+        </figure>
+        <nav class="nav">
+          <a href="#" class="nav-item">Home</a>
+          <a href="#" class="nav-item">Features</a>
+          <a href="#" class="nav-item">Pricing</a>
+          <a href="#" class="nav-item">About</a>
+          <a href="#" class="nav-item">Contact</a>
+        </nav>
+        <section class="user">
+          <a class="user__button--sign-in">Sign in</a>
+          <button class="user__button--sign-up">Sign up</button>
+        </section>
+      </div>
     </header>
 
     <main>
@@ -41,38 +43,332 @@
                 Get Started
               </button>
               <a href="#" class="utilities__button--play"
-                ><img src="./img/play.svg" alt="Play button"
+                ><img src="./img/play.png" alt="Play button"
               /></a>
             </div>
           </div>
           <div class="hero__media">
-            <img
-              class="hero-media__img"
-              src="./img/hero_img.png"
-              alt="A happy studying women"
-            />
-            <figure class="hero-media__caption--course">
-              <img src="./img/Book.svg" alt="Book" />
-              <img src="./img/Book_line.png" alt="Book line" />
-              <figcaption>Courses 1000+</figcaption>
-            </figure>
-            <figure class="hero-media__caption--schedule">
-              <img src="./img/schedule1.jpg" alt="schedule" />
-              <img src="./img/schedule2.jpg" alt="schedule" />
-              <img src="./img/schedule3.jpg" alt="schedule" />
-              <img src="./img/schedule4.jpg" alt="schedule" />
-              <figcaption>Schedules</figcaption>
-            </figure>
-            <figure class="hero-media__caption--member">
-              <img src="./img/mem1.png" alt="Member" />
-              <img src="./img/mem2.png" alt="Member" />
-              <img src="./img/mem3.png" alt="Member" />
-              <img src="./img/mem4.png" alt="Member" />
-              <img src="./img/mem5.png" alt="Member" />
-              <figcaption>Our Active Students</figcaption>
-            </figure>
+            <div class="hero-media__caption--course">
+              <figure class="course-caption__icon">
+                <img class="element1" src="./img/Book.svg" alt="Book" />
+                <img
+                  class="element2"
+                  src="./img/Book_line.png"
+                  alt="Book line"
+                />
+              </figure>
+              <p class="course-caption__text">Courses 1000+</p>
+            </div>
+            <div class="hero-media__caption--schedule">
+              <figure class="schedule__icon">
+                <img
+                  class="element1"
+                  src="./img/schedule1.jpg"
+                  alt="schedule"
+                />
+                <img
+                  class="element2"
+                  src="./img/schedule2.jpg"
+                  alt="schedule"
+                />
+                <img
+                  class="element3"
+                  src="./img/schedule3.jpg"
+                  alt="schedule"
+                />
+                <img
+                  class="element4"
+                  src="./img/schedule4.jpg"
+                  alt="schedule"
+                />
+              </figure>
+              <p class="schedule-caption__text">Schedules</p>
+            </div>
+            <div class="hero-media__caption--member">
+              <figure class="member__icon">
+                <img class="element1" src="./img/mem1.png" alt="Member" />
+                <img class="element2" src="./img/mem2.png" alt="Member" />
+                <img class="element3" src="./img/mem3.png" alt="Member" />
+                <img class="element4" src="./img/mem4.png" alt="Member" />
+                <img class="element5" src="./img/mem5.png" alt="Member" />
+              </figure>
+              <p class="member-caption__text">Our Active Students</p>
+            </div>
           </div>
         </article>
+      </section>
+
+      <section class="feature">
+        <article class="main-content">
+          <h2 class="tag">F E A T U R E S</h2>
+          <h2 class="content__title">
+            We are providing suitable features for students.
+          </h2>
+          <p class="content__description">
+            Read our awesome feature that is absolutely suit for you. Explore
+            the feature and know the best.
+          </p>
+          <section class="content__feature-cards">
+            <div class="conntent__feature-card">
+              <figure class="feature-card__img--live">
+                <img src="./img/feature_live.svg" alt="Live Class" />
+              </figure>
+              <h2 class="feature-card__name">Live Class</h2>
+              <p class="feature-card__description--live">
+                We are providing live classes with the best teacher for you
+              </p>
+            </div>
+            <div class="conntent__feature-card">
+              <figure class="feature-card__img--discuss">
+                <img src="./img/feature_dicuss.svg" alt="Disuss" />
+              </figure>
+              <h2 class="feature-card__name">Discuss</h2>
+              <p class="feature-card__description--discuss">
+                Conversation with teachers or another students about task or any
+                other thing
+              </p>
+            </div>
+            <div class="conntent__feature-card">
+              <figure class="feature-card__img--task">
+                <img src="./img/feature_task.svg" alt="Task" />
+              </figure>
+              <h2 class="feature-card__name">Task</h2>
+              <p class="feature-card__description--task">
+                We give every of our students task for gathering knowledge at
+                home
+              </p>
+            </div>
+          </section>
+        </article>
+      </section>
+
+      <section class="course">
+        <article class="main-content">
+          <h2 class="tag">C O U R S E</h2>
+          <h2 class="content__title">Popular Course</h2>
+          <div class="content__cta">
+            <p class="content__description">
+              Check out our most poular courses that suit for you. Here you can
+              find your favourite one.
+            </p>
+            <a class="content__see-course">View All Courses</a>
+          </div>
+          <article class="content__course-cards">
+            <figure class="content__course-card">
+              <img
+                class="course-card__img"
+                src="./img/course1.png"
+                alt="Web Design"
+              />
+              <figcaption class="course-card__detail">
+                <h2 class="course-card__title">Web Design</h2>
+                <p class="course-card__price">Fee <strong>$200</strong></p>
+                <p class="course-card__description">
+                  Web design basic to higer level
+                </p>
+                <aside class="course-card__length">
+                  <img class="bullet" src="./img/bullet.svg" alt="bullet" />
+                  <p class="course-card__n-class">40 Classes</p>
+                  <img class="bullet" src="./img/bullet.svg" alt="bullet" />
+                  <p class="course-card__period">3 Months</p>
+                </aside>
+              </figcaption>
+            </figure>
+            <figure class="content__course-card">
+              <img
+                class="course-card__img"
+                src="./img/course2.png"
+                alt="Web Development Course"
+              />
+              <figcaption class="course-card__detail">
+                <h2 class="course-card__title">Web Development</h2>
+                <p class="course-card__price">Fee <strong>$250</strong></p>
+                <p class="course-card__description">
+                  Web development basic to higer level
+                </p>
+                <aside class="course-card__length">
+                  <img class="bullet" src="./img/bullet.svg" />
+
+                  <p class="course-card__n-class">30 Classes</p>
+                  <img class="bullet" src="./img/bullet.svg" />
+
+                  <p class="course-card__period">3 Months</p>
+                </aside>
+              </figcaption>
+            </figure>
+            <figure class="content__course-card">
+              <img
+                class="course-card__img"
+                src="./img/course3.png"
+                alt="UI/UX Design"
+              />
+              <figcaption class="course-card__detail">
+                <h2 class="course-card__title">UI/UX Design</h2>
+                <p class="course-card__price">Fee <strong>$350</strong></p>
+                <p class="course-card__description">
+                  UI/UX design basic to higer level
+                </p>
+                <aside class="course-card__length">
+                  <img class="bullet" src="./img/bullet.svg" />
+                  <p class="course-card__n-class">50 Classes</p>
+                  <img class="bullet" src="./img/bullet.svg" />
+                  <p class="course-card__period">4 Months</p>
+                </aside>
+              </figcaption>
+            </figure>
+          </article>
+        </article>
+      </section>
+
+      <section class="countdown">
+        <div class="main-content">
+          <div class="countdown__container">
+            <figure class="countdown__figure">
+              <h2 class="countdown__number">100+</h2>
+              <p class="countdown__title">Popular Courses</p>
+            </figure>
+            <figure class="countdown__figure">
+              <h2 class="countdown__number">500+</h2>
+              <p class="countdown__title">Skilled Trainer</p>
+            </figure>
+            <figure class="countdown__figure">
+              <h2 class="countdown__number">1M+</h2>
+              <p class="countdown__title">Student Learning</p>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="feedback">
+        <article class="main-content">
+          <div class="feedback__content">
+            <img
+              class="feedback-content__quote"
+              src="./img/quote.svg"
+              alt="quotemark"
+            />
+            <p class="feedback-content__speak">
+              “They are the best people. And this is the suitable platform to
+              learn from distance.”
+            </p>
+            <p class="feedback-content__speaker">
+              <strong class="feedback-content__name">- Ben Foakes,</strong>
+              student.
+            </p>
+            <img
+              class="feedback-content__switch"
+              src="./img/switch.svg"
+              alt="switch button"
+            />
+          </div>
+
+          <figure class="feedback__media">
+            <img
+              src="./img/mem11.png"
+              alt="Member"
+              class="feedback-media__fig--yellow"
+            />
+            <img
+              src="./img/mem22.png"
+              alt="Member"
+              class="feedback-media__fig--brightblue"
+            />
+            <img
+              src="./img/mem33.png"
+              alt="Member"
+              class="feedback-media__fig--pink"
+            />
+            <img
+              src="./img/mem44.png"
+              alt="Member"
+              class="feedback-media__fig--pinkbig"
+            />
+            <img
+              src="./img/mem55.png"
+              alt="Member"
+              class="feedback-media__fig--purple"
+            />
+            <img
+              src="./img/mem66.png"
+              alt="Member"
+              class="feedback-media__fig--lightblue"
+            />
+          </figure>
+        </article>
+      </section>
+
+      <section class="cta">
+        <div class="main-content">
+          <div class="cta__text">
+            <h2 class="cta__text--big">Ready to Get Admit</h2>
+            <p class="cta__text--small">
+              Create your account and Boost your Career.
+            </p>
+          </div>
+          <button class="cta__button--get-started">Get Started</button>
+        </div>
+      </section>
+
+      <section class="footer">
+        <div class="main-content">
+          <figure class="footer__logo">
+            <img src="./img/Logo_footer.png" alt="Besnik Logo" />
+          </figure>
+          <div class="footer__menu">
+            <h2 class="menu__title">Company</h2>
+            <ul>
+              <li class="menu__item">About</li>
+              <li class="menu__item">Careers</li>
+              <li class="menu__item">Press</li>
+            </ul>
+          </div>
+          <div class="footer__menu">
+            <h2 class="menu__title">Community</h2>
+            <ul>
+              <li class="menu__item">Team Plans</li>
+              <li class="menu__item">Blog</li>
+              <li class="menu__item">Students</li>
+              <li class="menu__item">Schoolarships</li>
+            </ul>
+          </div>
+          <div class="footer__menu">
+            <h2 class="menu__title">Teaching</h2>
+            <ul>
+              <li class="menu__item">Become a teacher</li>
+              <li class="menu__item">Teaching academy</li>
+            </ul>
+          </div>
+          <div class="footer__menu">
+            <h2 class="menu__title">Be social</h2>
+            <ul>
+              <li class="menu__item">
+                <img
+                  class="bullet"
+                  src="./img/twitter.svg"
+                  alt="Twitter"
+                />Twitter
+              </li>
+              <li class="menu__item">
+                <img class="bullet" src="./img/fb.svg" alt="Facebook" />Facebook
+              </li>
+              <li class="menu__item">
+                <img
+                  class="bullet"
+                  src="./img/ig.svg"
+                  alt="Instagram"
+                />Instagram
+              </li>
+              <li class="menu__item">
+                <img class="bullet" src="./img/li.svg" alt="Linkedin" />Linkedin
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="foot-content">
+          <p class="footer__copyright">
+            © Copyright 2020 by Mayad Ahmed. All right reserved.
+          </p>
+        </div>
       </section>
     </main>
   </body>
